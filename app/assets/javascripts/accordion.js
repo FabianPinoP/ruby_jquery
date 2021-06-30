@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  $('p').hide();
   $("#accordionExample").on("click", ".btn-link", function () {
     var t = $(this);
     var tp = t.next();
